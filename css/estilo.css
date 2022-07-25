@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px 0;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.menu {
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+nav {
+    position: relative;
+    right: 10px;
+    bottom: 30px;
+    text-align: right;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+    width: 10%;
+    position: relative;
+    font-size: 20px;
+}
+
+.menu li a {
+    color: white;
+}
+
+.menu img {
+    width: 100px;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.menu li a:hover {
+    transform: scale(2, 2);
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(255, 255, 255, 0.473));
+    font-weight: bold;
+}
+
+.menu img:hover {
+    transform: scale(2, 2);
+}
+
+.seccionPrincipal {
+    background-image: url("../imagenes/vlrt.webp");
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.titulo {
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+
+.seccionPrincipal h1 {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+}
+
+.titulo p {
+    background-color: rgb(213, 143, 3);
+    padding: 15px;
+    width: 20%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.seccionPrincipal a {
+    color: white;
+    text-decoration: none;
+    font-family: bold;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+}
+
+footer ul {
+    padding-top: 30px;
+    margin-left: 30px;
+    list-style: none;
+}
+
+footer li {
+    margin: 15px;
+    display: inline-block;
+}
+
+footer li a {
+    color: white;
+    text-decoration: none;
+}
+
+.producto {
+    margin: 20px 0;
+    padding: 30px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+}
+
+.imagenProducto {
+    width: 100%;
+}
+
+.descripcionProducto {
+    color: white;
+}
+
+.productoBlanco {
+    margin: 20px 0;
+    padding: 30px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+}
+
+.productoBlanco p {
+    color: black;
+}
+
+.nosotros p {
+    width: 80%;
+    position: relative;
+    left: 250px;
+    top: 100px;
+}
+
+.nosotros img {
+    width: 200px;
+}
+
+.gris {
+    background-color: rgb(240, 238, 238);
+}
+
+.planes {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    column-gap: 5%;
+    margin: 30px;
+}
+
+.plan {
+    border-radius: 35px;
+    background-color: white;
+}
+
+.planServicios {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 100%;
+}
+
+.planServicios li {
+    list-style: none;
+}
+
+.planServicios img {
+    position: relative;
+    left: 80%;
+    bottom: 20px;
+}
+
+.precio {
+    font-size: 34px;
+    font-weight: lighter;
+    margin: 20px;
+    text-align: center;
+}
+
+.precio strong {
+    font-size: 34px;
+    font-weight: bold;
+    color: red;
+}
+
+.lineaPlanes {
+    width: 70%;
+    margin: auto;
+}
+
+.formContacto {
+    background-color: black;
+    color: white;
+    width: 100%;
+    border-radius: 30px;
+    padding: 40px;
+}
+
+.formContacto p {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.formContacto form {
+    margin: 30px;
+}
+
+.formContacto input {
+    width: 30%;
+    margin: 5%;
+    min-height: 30px;
+}
+
+.formContacto label {
+    margin-right: 30px;
+}
+
+.formContacto textarea {
+    width: 90%;
+    margin-top: 30px;
+}
+
+.botonForm {
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #E4B640;
+    font-size: 20px;
+    font-weight: bold;
+}
