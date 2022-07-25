@@ -66,16 +66,6 @@ nav {
     margin-left: 40px;
 }
 
-.menu li a:hover {
-    transform: scale(2, 2);
-    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(255, 255, 255, 0.473));
-    font-weight: bold;
-}
-
-.menu img:hover {
-    transform: scale(2, 2);
-}
-
 .seccionPrincipal {
     background-image: url("../imagenes/vlrt.webp");
     width: 100%;
