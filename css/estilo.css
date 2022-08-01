@@ -40,11 +40,6 @@
         margin-right: 40px;
     }
     
-    .nav-link:hover {
-        font-weight: bold;
-        color: rgb(213, 143, 3);
-    }
-    
     .nav-link {
         color: white
     }
@@ -67,14 +62,6 @@
         background-color: rgba(255, 255, 255, 0.233)
     }
     
-    .titulo p {
-        background-color: rgb(213, 143, 3);
-        padding: 15px;
-        width: 20%;
-        margin: auto;
-        border-radius: 10px;
-    }
-    
     .seccionPrincipal a {
         color: white;
         text-decoration: none;
@@ -87,6 +74,11 @@
     
     #navbarNav {
         margin-left: 50%;
+    }
+    
+    .nav-link:hover {
+        background-image: linear-gradient(to right, rgb(213, 143, 3), rgba(213, 143, 3, 0.3));
+        font-weight: bold;
     }
     
     .navbar {
@@ -284,5 +276,10 @@
         .nav-link {
             margin-right: 20px;
             text-align: right;
+        }
+        .titulo p {
+            width: 150px;
+            margin: auto;
+            border-radius: 10px;
         }
     }
