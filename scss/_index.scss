@@ -1,0 +1,69 @@
+$colorBoton:#d58f03;
+.seccionPrincipal {
+    background-image: url("../imagenes/vlrt.webp");
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-color: black
+}
+
+#videoHome {
+    height: 500px
+}
+
+#imagenPrincipal {
+    background-image: url("../imagenes/vlrt.webp");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.titulo {
+    text-align: center;
+    position: relative;
+    top: 50%
+}
+
+#imagenPrincipal h1 {
+    background-color: white;
+    width: 50%;
+    margin: auto
+}
+
+.titulo p {
+    background-color: $colorBoton;
+    padding: 15px;
+    width: 20%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#imagenPrincipal a {
+    color: white;
+    text-decoration: none;
+    font-family: bold
+}
+
+.seccionPrincipal a {
+    color: white;
+    text-decoration: none;
+    font-family: bold;
+}
+
+#videoHome {
+    height: 500px;
+}
+
+.seccionPrincipal {
+    background-image: url("../imagenes/vlrt.webp");
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.seccionPrincipal h1 {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+}
