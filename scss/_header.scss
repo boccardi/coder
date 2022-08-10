@@ -26,3 +26,14 @@
 .navbar {
     background-color: black
 }
+
+.activa {
+    @extend.nav-link;
+    text-decoration: underline;
+}
+
+.activa:hover {
+    @extend.nav-link;
+    background-color: black;
+    background-image: none
+}

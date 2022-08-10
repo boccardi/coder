@@ -1,8 +1,13 @@
-$colorBoton:#d58f03;
+$estilosBoton:( color:#d58f03, padding:15px, ancho:20%, radioBorde:10px);
+@mixin sizes {
+    height: $alto;
+    width: $ancho;
+}
+
 .seccionPrincipal {
     background-image: url("../imagenes/vlrt.webp");
-    width: 100%;
-    height: 800px;
+    @include sizes(100%,
+    800px);
     background-repeat: no-repeat;
     background-color: black
 }
@@ -31,11 +36,11 @@ $colorBoton:#d58f03;
 }
 
 .titulo p {
-    background-color: $colorBoton;
-    padding: 15px;
-    width: 20%;
+    background-color: map-get($estilosBoton, color);
+    padding: map-get($estilosBoton, padding);
+    width: map-get($estilosBoton, ancho);
     margin: auto;
-    border-radius: 10px;
+    border-radius: map-get($estilosBoton, radioBorde);
 }
 
 #imagenPrincipal a {
