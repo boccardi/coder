@@ -1,12 +1,12 @@
 $estilosBoton:( color:#d58f03, padding:15px, ancho:20%, radioBorde:10px);
-@mixin sizes {
+@mixin size ($alto, $ancho) {
     height: $alto;
     width: $ancho;
 }
 
 .seccionPrincipal {
     background-image: url("../imagenes/vlrt.webp");
-    @include sizes(100%,
+    @include size(100%,
     800px);
     background-repeat: no-repeat;
     background-color: black
