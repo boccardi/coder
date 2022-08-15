@@ -228,4 +228,6 @@ main {
   .titulo p {
     width: 150px;
     margin: auto;
-    border-radius: 10px; } }
+    border-radius: 10px; }
+  .col-lg-4 {
+    width: 100%; } }
