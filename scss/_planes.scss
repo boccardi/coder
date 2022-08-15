@@ -1,0 +1,47 @@
+.gris {
+    background-color: rgb(240, 238, 238);
+}
+
+.planes {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    column-gap: 5%;
+    margin: 30px;
+}
+
+.plan {
+    border-radius: 35px;
+    background-color: white;
+}
+
+.planServicios {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 100%;
+    li {
+        list-style: none;
+    }
+    img {
+        position: relative;
+        left: 80%;
+        bottom: 20px;
+    }
+}
+
+.precio {
+    font-size: 34px;
+    font-weight: lighter;
+    margin: 20px;
+    text-align: center;
+    strong {
+        font-size: 34px;
+        font-weight: bold;
+        color: red;
+    }
+}
+
+.lineaPlanes {
+    width: 70%;
+    margin: auto;
+}

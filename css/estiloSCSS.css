@@ -90,15 +90,142 @@ footer {
   width: 100%;
   position: fixed;
   bottom: 0; }
+  footer ul {
+    padding-top: 30px;
+    margin-left: 30px;
+    list-style: none; }
+  footer li {
+    margin: 15px;
+    display: inline-block; }
+    footer li a {
+      color: white;
+      text-decoration: none; }
 
-ul {
-  padding-top: 30px;
-  margin-left: 30px;
-  list-style: none; }
+.gris {
+  background-color: #f0eeee; }
 
-li {
-  margin: 15px;
-  display: inline-block; }
-  li a {
-    color: white;
-    text-decoration: none; }
+.planes {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  column-gap: 5%;
+  margin: 30px; }
+
+.plan {
+  border-radius: 35px;
+  background-color: white; }
+
+.planServicios {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 10%;
+  width: 100%; }
+  .planServicios li {
+    list-style: none; }
+  .planServicios img {
+    position: relative;
+    left: 80%;
+    bottom: 20px; }
+
+.precio {
+  font-size: 34px;
+  font-weight: lighter;
+  margin: 20px;
+  text-align: center; }
+  .precio strong {
+    font-size: 34px;
+    font-weight: bold;
+    color: red; }
+
+.lineaPlanes {
+  width: 70%;
+  margin: auto; }
+
+.formContacto {
+  background-color: black;
+  color: white;
+  width: 100%;
+  border-radius: 30px;
+  padding: 40px; }
+  .formContacto p {
+    margin-top: 30px;
+    text-align: center; }
+  .formContacto form {
+    margin: 30px; }
+  .formContacto input {
+    width: 30%;
+    margin: 5%;
+    min-height: 30px; }
+  .formContacto label {
+    margin-right: 30px; }
+  .formContacto textarea {
+    width: 90%;
+    margin-top: 30px; }
+
+.botonForm {
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #E4B640;
+  font-size: 20px;
+  font-weight: bold; }
+
+.producto {
+  margin: 20px 0;
+  padding: 30px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 20px; }
+
+.imagenProducto {
+  width: 100%; }
+
+.descripcionProducto {
+  color: white; }
+
+.productoBlanco {
+  margin: 20px 0;
+  padding: 30px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 20px; }
+  .productoBlanco p {
+    color: black; }
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif; }
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px; }
+
+h2 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  padding: 15px 0; }
+
+main {
+  width: 80%;
+  margin: auto; }
+
+.col-lg-12 {
+  padding-right: 0;
+  padding-left: 0;
+  margin: 0; }
+
+@media only screen and (max-width: 990px) {
+  .nav-link, .activa, .activa:hover {
+    margin-right: 20px;
+    text-align: right; }
+  .titulo p {
+    width: 150px;
+    margin: auto;
+    border-radius: 10px; } }

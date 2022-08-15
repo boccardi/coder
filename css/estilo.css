@@ -1,5 +1,5 @@
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-    * {
+    /* * {
         margin: 0;
         padding: 0;
         text-decoration: none;
@@ -30,7 +30,7 @@
         padding-right: 0;
         padding-left: 0;
         margin: 0;
-    }
+    } */
     /*     
     .navbar-brand img {
         margin-left: 40px;
@@ -81,8 +81,7 @@
     .navbar {
         background-color: black;
     } */
-    
-    #imagenPrincipal {
+    /* #imagenPrincipal {
         background-image: url("../imagenes/vlrt.webp");
         height: 800px;
         background-repeat: no-repeat;
@@ -113,7 +112,7 @@
         color: white;
         text-decoration: none;
         font-family: bold;
-    }
+    } */
     /*     
     footer {
         background-color: black;
@@ -138,8 +137,7 @@
         text-decoration: none;
     }
      */
-    
-    .producto {
+    /* .producto {
         margin: 20px 0;
         padding: 30px;
         background-color: black;
@@ -167,8 +165,8 @@
     
     .productoBlanco p {
         color: black;
-    }
-    
+    } */
+    /*     
     .nosotros p {
         width: 80%;
         position: relative;
@@ -178,9 +176,8 @@
     
     .nosotros img {
         width: 200px;
-    }
-    
-    .gris {
+    } */
+    /* .gris {
         background-color: rgb(240, 238, 238);
     }
     
@@ -229,8 +226,8 @@
     .lineaPlanes {
         width: 70%;
         margin: auto;
-    }
-    
+    } */
+    /*     
     .formContacto {
         background-color: black;
         color: white;
@@ -271,8 +268,8 @@
         font-size: 20px;
         font-weight: bold;
     }
-    
-    @media only screen and (max-width: 990px) {
+     */
+    /* @media only screen and (max-width: 990px) {
         .nav-link {
             margin-right: 20px;
             text-align: right;
@@ -282,4 +279,4 @@
             margin: auto;
             border-radius: 10px;
         }
-    }
+    } */

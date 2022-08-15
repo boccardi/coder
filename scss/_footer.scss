@@ -2,20 +2,18 @@ footer {
     background-color: black;
     width: 100%;
     position: fixed;
-    bottom: 0
-}
-
-ul {
-    padding-top: 30px;
-    margin-left: 30px;
-    list-style: none
-}
-
-li {
-    margin: 15px;
-    display: inline-block;
-    a {
-        color: white;
-        text-decoration: none
+    bottom: 0;
+    ul {
+        padding-top: 30px;
+        margin-left: 30px;
+        list-style: none
+    }
+    li {
+        margin: 15px;
+        display: inline-block;
+        a {
+            color: white;
+            text-decoration: none
+        }
     }
 }

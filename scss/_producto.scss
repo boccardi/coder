@@ -1,0 +1,28 @@
+.producto {
+    margin: 20px 0;
+    padding: 30px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+}
+
+.imagenProducto {
+    width: 100%;
+}
+
+.descripcionProducto {
+    color: white;
+}
+
+.productoBlanco {
+    margin: 20px 0;
+    padding: 30px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    p {
+        color: black;
+    }
+}
