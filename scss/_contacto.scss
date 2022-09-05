@@ -4,15 +4,11 @@
     width: 100%;
     border-radius: 30px;
     padding: 40px;
-    p {
-        margin-top: 30px;
-        text-align: center;
-    }
     form {
         margin: 30px;
     }
     input {
-        width: 30%;
+        width: 100%;
         margin: 5%;
         min-height: 30px;
     }
@@ -20,7 +16,7 @@
         margin-right: 30px;
     }
     textarea {
-        width: 90%;
+        width: 100%;
         margin-top: 30px;
     }
 }
